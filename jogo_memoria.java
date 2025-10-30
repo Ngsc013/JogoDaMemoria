@@ -11,7 +11,7 @@ public class JogoMemoriaRosa extends JFrame {
     private int acertos = 0;
 
     public JogoMemoriaRosa() {
-        setTitle("💖 Jogo da Memória Rosa 💖");
+        setTitle(" ⋆｡˚୨୧˚｡⋆Jogo da Memória⋆｡˚୨୧˚｡⋆");
         setSize(400, 400);
         setLayout(new GridLayout(4, 4));
         getContentPane().setBackground(new Color(255, 192, 203)); // rosa claro
@@ -71,7 +71,7 @@ public class JogoMemoriaRosa extends JFrame {
             segundoBotao = null;
 
             if (acertos == 8) {
-                JOptionPane.showMessageDialog(this, "🎉 Parabéns! Você venceu!");
+                JOptionPane.showMessageDialog(this, "Parabéns! Você venceu!");
             }
         } else {
             timer = new Timer(800, new ActionListener() {
